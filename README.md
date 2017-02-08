@@ -5,7 +5,7 @@ tm_driver test without using ROS
 1. create a folder ```test_rm_dreiver``` for this test code
 2. copy the *CMakeLists.txt* and *test_tm_driver.cpp* to ```test_rm_dreiver/```
 3. copy the ```src``` folder in ```techman_robot/tm_driver/``` to ```test_rm_dreiver/```
-4. copy the ```tm_driver``` folder in ```techman_robot/tm_driver/include/``` to ```test_rm_dreiver/```
+4. copy the ```tm_driver``` folder in ```techman_robot/tm_driver/include/``` to ```test_rm_dreiver/src/```
 5. ```$ cmake .``` and ```$ make``` to build this test code
 
 ## Usage
